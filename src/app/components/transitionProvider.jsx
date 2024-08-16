@@ -20,10 +20,10 @@ const TransitionProvider = ({ children }) => {
           transition={{ duration: 0.5, ease: "easeOut" }}
         />
         <motion.div
-          className="fixed m-auto top-0 left-0 right-0 bottom-0 text-white text-8xl cursor-default z-50 w-fit h-fit "
+          className="fixed m-auto top-0 left-0 right-0 bottom-0 sm:text-2xl md:text-4xl text-white lg:text-6xl xl:text-8xl cursor-default z-50 w-fit h-fit "
           initial={{ opacity: 1 }}
-          animate={{ opacity: 0 }}
-          transition={{ duration: 1, ease: "easeOut" }}
+          animate={{ display: "none" }}
+          transition={{ duration: 0.5, ease: "easeOut" }}
         >
           {pathName === "/" ? "HOME" : pathName.substring(1).toUpperCase()}
         </motion.div>
