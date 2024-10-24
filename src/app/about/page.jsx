@@ -1,4 +1,3 @@
-
 "use client";
 import Brain from "../components/brain";
 import { motion, useInView, useScroll } from "framer-motion";
@@ -42,22 +41,48 @@ const AboutPage = () => {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              I am Akhmad from Uzbekistan, where my passion for technology began. Despite majoring in Business at Korean University, I pursued coding and worked remotely for a company in my home country. Fluent in English, Russian, and Uzbek, I am currently improving my Korean. I love traveling and learning about new cultures, which enhances my personal and professional growth. My goal is to gain international experience and develop my own tech projects to create innovative solutions with a positive impact.
+              I am Akhmad from Uzbekistan, where my passion for technology
+              began. Despite majoring in Business at Korean University, I
+              pursued coding and worked remotely for a company in my home
+              country. Fluent in English, Russian, and Uzbek, I am currently
+              improving my Korean. I love traveling and learning about new
+              cultures, which enhances my personal and professional growth. My
+              goal is to gain international experience and develop my own tech
+              projects to create innovative solutions with a positive impact.
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-            Embrace your passions and continuously learn from the world around you.
+              Embrace your passions and continuously learn from the world around
+              you.
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end">
-            <svg width="185" height="77"  viewBox="0 0 775 381" fill="none" xmlns="http://www.w3.org/2000/svg">
-            
-              <path d="M257 261C257.222 258.783 258.45 256.482 259.222 254.444C264.505 240.517 270.978 227.048 276.778 213.333C293.426 173.968 312.647 136.371 332 98.3333C345.846 71.1179 355.905 41.9737 357.778 11.3333C357.782 11.2577 358.281 1.64434 357.333 2.33333C352.397 5.92336 350.449 17.1215 348.278 22.3333C337.738 47.6292 330.32 73.2395 324.056 99.9444C316.635 131.581 307.908 162.844 303.444 195.111C298.937 227.69 303.538 277.566 339.333 291.333C342.661 292.613 354.535 297.128 356.5 291.889C358.666 286.114 359.272 281.758 355.611 276.556C347.89 265.583 337.479 257.514 326.556 249.889C300.219 231.505 272.927 214.048 244.333 199.389C213.225 183.44 180.59 169.68 147 159.889C124.024 153.192 98.2502 146.319 74 148.444C69.7021 148.821 60 151.125 60 157C60 158.935 60.934 159.728 62.7778 160.611C68.9463 163.567 76.7362 164.478 83.3333 165.444C104.454 168.537 125.774 170.056 147.056 171.5C295.232 181.551 443.299 190.778 591.889 190.778C641.841 190.778 691.98 190.194 741.556 183.444C748.009 182.566 768.182 182.424 773 176" stroke="black" stroke-width="3" stroke-linecap="round"/>
-              <path d="M462 132C462.365 148.806 468.983 165.234 471.556 181.778C476.81 215.572 477.006 256.48 460.222 287.222C448.556 308.59 429.22 324.612 408.667 337C374.65 357.503 336.672 369.577 297.333 374.444C199.601 386.538 99.5431 374.234 2 366" stroke="black" stroke-width="3" stroke-linecap="round"/>
-              <path d="M431 56C435.983 65.9661 442.2 74.9577 450.222 82.7778C479.514 111.332 514.543 77.1263 541 61" stroke="black" stroke-width="3" stroke-linecap="round"/>
+              <svg
+                width="185"
+                height="77"
+                viewBox="0 0 775 381"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M257 261C257.222 258.783 258.45 256.482 259.222 254.444C264.505 240.517 270.978 227.048 276.778 213.333C293.426 173.968 312.647 136.371 332 98.3333C345.846 71.1179 355.905 41.9737 357.778 11.3333C357.782 11.2577 358.281 1.64434 357.333 2.33333C352.397 5.92336 350.449 17.1215 348.278 22.3333C337.738 47.6292 330.32 73.2395 324.056 99.9444C316.635 131.581 307.908 162.844 303.444 195.111C298.937 227.69 303.538 277.566 339.333 291.333C342.661 292.613 354.535 297.128 356.5 291.889C358.666 286.114 359.272 281.758 355.611 276.556C347.89 265.583 337.479 257.514 326.556 249.889C300.219 231.505 272.927 214.048 244.333 199.389C213.225 183.44 180.59 169.68 147 159.889C124.024 153.192 98.2502 146.319 74 148.444C69.7021 148.821 60 151.125 60 157C60 158.935 60.934 159.728 62.7778 160.611C68.9463 163.567 76.7362 164.478 83.3333 165.444C104.454 168.537 125.774 170.056 147.056 171.5C295.232 181.551 443.299 190.778 591.889 190.778C641.841 190.778 691.98 190.194 741.556 183.444C748.009 182.566 768.182 182.424 773 176"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M462 132C462.365 148.806 468.983 165.234 471.556 181.778C476.81 215.572 477.006 256.48 460.222 287.222C448.556 308.59 429.22 324.612 408.667 337C374.65 357.503 336.672 369.577 297.333 374.444C199.601 386.538 99.5431 374.234 2 366"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M431 56C435.983 65.9661 442.2 74.9577 450.222 82.7778C479.514 111.332 514.543 77.1263 541 61"
+                  stroke="black"
+                  stroke-width="3"
+                  stroke-linecap="round"
+                />
               </svg>
-
-              
             </div>
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -193,20 +218,20 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior JavaScript Engineer
+                    Full-Stack Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I led web development, offering expertise in JavaScript
-                    frameworks.{" "}
+                    Collaborated with cross-functional teams to design and
+                    develop web applications using React, Node.js, and Express.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2024 - Present
+                    2023 - 2024
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Apple
+                    Tech Solutions
                   </div>
                 </div>
                 {/* CENTER */}
@@ -236,20 +261,20 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Senior React Developer
+                    Front-end, React Developer
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I spearheaded React-based application development,
-                    leveraging advanced skills.{" "}
+                    Contributed to the development of a customer-facing web
+                    application using React.{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2019 - 2024{" "}
+                    2022 - 2023{" "}
                   </div>
                   {/* JOB COMPANY */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Microsoft
+                    Innovative Apps Co
                   </div>
                 </div>
               </div>
@@ -259,16 +284,20 @@ const AboutPage = () => {
                 <div className="w-1/3 ">
                   {/* JOB TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Freelancer{" "}
+                    Full-Stack Developer{" "}
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                    I provided web solutions, applying a range of technologies
-                    to address client requirements.{" "}
+                    Collaborated with a team of developers in Uzbekistan to
+                    build a scalable e-commerce platform for local retailers
+                    using React, Node.js,{" "}
                   </div>
                   {/* JOB DATE */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    2010 - 2019{" "}
+                    2020 - 2023{" "}
+                  </div>
+                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
+                    ShopLocal(Collaboration Project)
                   </div>
                 </div>
                 {/* CENTER */}
